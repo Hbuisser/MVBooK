@@ -11,7 +11,7 @@ const postRoute = require("./routes/posts");
 const conversationRoute = require("./routes/conversations");
 const messageRoute = require("./routes/messages");
 
-// const router = express.Router();
+const router = express.Router();
 const path = require("path");
 
 dotenv.config();
