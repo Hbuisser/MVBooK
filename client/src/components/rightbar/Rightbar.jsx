@@ -13,9 +13,7 @@ export default function Rightbar({ user }) {
 	const { user: currentUser, dispatch } = useContext(AuthContext);
 	const [followed, setFollowed] = useState(
 		currentUser.followings.includes(user?.id)
-  );
-  console.log(followed);
-	console.log(user);
+	);
 
 	useEffect(() => {
 		const getFriends = async () => {
@@ -55,7 +53,7 @@ export default function Rightbar({ user }) {
 			result += characters.charAt(Math.floor(Math.random() * charactersLength));
 		}
 		return result;
-	};
+	}
 
 	const HomeRightbar = () => {
 		return (

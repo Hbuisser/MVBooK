@@ -1,5 +1,5 @@
 .topbarContainer {
-  height: 50px;
+  height: 70px;
   width: 100%;
   background-color: #1877f2;
   display: flex;
@@ -15,7 +15,7 @@
 
 .logo {
   font-size: 24px;
-  margin-left: 20px;
+  margin-left: 50px;
   font-weight: bold;
   color: white;
   cursor: pointer;
@@ -54,22 +54,31 @@
   align-items: center;
   justify-content: space-around;
   color: white;
+  margin-right: 40px;
 }
 
 .topbarLink {
   margin-right: 10px;
+  float: right;
   font-size: 14px;
   cursor: pointer;
 }
 
 .topbarIcons {
   display: flex;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 .topbarIconItem {
   margin-right: 15px;
   cursor: pointer;
   position: relative;
+}
+
+.linkMessenger {
+  text-decoration: none;
+  color: white;
 }
 
 .topbarIconBadge {
@@ -88,8 +97,8 @@
 }
 
 .topbarImg {
-  width: 32px;
-  height: 32px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
